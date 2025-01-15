@@ -22,13 +22,13 @@ a{
 
 
 .nav__logo{
-  padding: 50px  650px 60px;
-  
+display: flex;
+justify-content: center;
+align-items: center;
+padding:50px 0 ;  
 }
 
-.nav{
-   padding:0px 0 ;    
-}
+
 
 .nav__content{
 display: flex;
@@ -77,7 +77,6 @@ padding: 40px 0px 30px;
 }
 
 .about__text{
- 
     font-family:"Arial";
 font-weight: 400;
 font-size: 16px;
@@ -87,14 +86,18 @@ color: #808080;
 
 .about__content{
     display: flex;
-    gap: 200px;
+  justify-content: space-between;
    
 }
 
+.footer{
+    padding-top: 40px;
+
+}
 
 .footer__list{
     display: flex;
-    gap: 600px;
+    justify-content: space-between;
 }
 
 .footer__list__link {
